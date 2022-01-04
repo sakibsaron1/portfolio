@@ -35,5 +35,21 @@ section{
     font-weight: bold;
     color: #ffffff;
     border-radius: 5px;
+    text-transform: uppercase;
 
+}
+
+.dream-big{
+    display: flex;
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width>h6{
+    font-size: 20px;;
+}
+
+.dream-big>.game{
+    margin-top: 50px;
 }
