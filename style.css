@@ -6,11 +6,15 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
+
+h2{
+    font-size: 30px;
+}
 .name-color{
     color: orange;
 }
 
-section{
+.flexible-container{
     display: flex;
 }
 
@@ -40,7 +44,6 @@ section{
 }
 
 .dream-big{
-    display: flex;
     background-image: url('images/dream-bg.png');
     background-repeat: no-repeat;
     background-position: right;
@@ -52,4 +55,45 @@ section{
 
 .dream-big>.game{
     margin-top: 50px;
+}
+
+.experience-area{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 60px 40px;
+    box-shadow: 10px 10px 40px grey;
+}
+.experience-area3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#border-side{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#border-side2{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer{
+    background-color: skyblue;
+    padding: 20px 20px;
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+
+footer p a{
+    text-decoration: none;
+    color: tomato;
 }
